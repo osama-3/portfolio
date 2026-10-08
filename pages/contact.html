@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Osama Ramadan</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.CSS">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        if (window.emailjs) {
+            emailjs.init('a0JKKM9FgrAgardf4');
+        }
+    </script>
+</head>
+
+<body>
+    <main class="portfolio-shell d-lg-flex min-vh-100">
+        <aside class="sidebar">
+            <button class="menu-btn" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav class="nav nav-pills flex-row flex-lg-column Links" aria-label="Main navigation">
+                <a class="nav-link " href="home.html">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </a>
+
+                <a class="nav-link" href="about.html">
+                    <i class="fa-solid fa-user"></i>
+                    <span>About Me</span>
+                </a>
+
+                <a class="nav-link" href="services.html">
+                    <i class="fa-solid fa-list"></i>
+                    <span>Services</span>
+                </a>
+
+                <a class="nav-link" href="projects.html">
+                    <i class="fa-solid fa-images"></i>
+                    <span>Projects</span>
+                </a>
+
+                <a class="nav-link" href="contact.html">
+                    <i class="fa-solid fa-comments"></i>
+                    <span>Contact Me</span>
+                </a>
+            </nav>
+        </aside>
+
+        <section class="page-content contactMe flex-fill">
+            <div class="container-fluid px-0">
+                <h1 class="heading">Contact Me</h1>
+                <div class="row">
+                    <div class="col-xl-5 mb-4 mb-xl-0">
+                        <div class="contact-cards">
+                            <div class="card contactinfo">
+                                <div class="card-body d-flex align-items-center">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <div>
+                                        <h3>Mobile No</h3>
+                                        <p>+20 1115920385</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card contactinfo">
+                                <div class="card-body d-flex align-items-center">
+                                    <i class="fa-regular fa-envelope"></i>
+                                    <div>
+                                        <h3>Email</h3>
+                                        <p>eng.osamaramadan0@gmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card contactinfo">
+                                <div class="card-body d-flex align-items-center">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <div>
+                                        <h3>Location</h3>
+                                        <p>EGYPT-GIZA</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-7">
+                        <form id="contact-form" class="contact-form">
+                            <div class="d-sm-flex justify-content-between align-items-center mb-2">
+                                <h2>Send Me A Message</h2>
+                                <div class="SocialLinks">
+                                    <a class="fa-brands fa-linkedin"
+                                        href="https://www.linkedin.com/in/osama-ramadan-81b345362?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                        target="_blank" rel="noopener" aria-label="LinkedIn"></a>
+                                    <a class="fa-brands fa-github" href="https://github.com/osama-3" target="_blank"
+                                        rel="noopener" aria-label="GitHub"></a>
+                                    <a class="fa-brands fa-facebook" href="https://www.facebook.com/osama.ramadan.33234"
+                                        target="_blank" rel="noopener" aria-label="Facebook"></a>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="text" name="name" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="email" name="email" placeholder="email">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="8"
+                                    placeholder="Type your Message Here..."></textarea>
+                            </div>
+                            <button class="btn primary" type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+
+                <footer>
+                    <p>Copyright &copy; osama.</p>
+                </footer>
+            </div>
+        </section>
+    </main>
+
+    <script src="../js/jquery.slim.min.JS"></script>
+    <script src="../js/popper.min.JS"></script>
+    <script src="../js/bootstrap.min.JS"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
